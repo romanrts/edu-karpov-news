@@ -1,0 +1,24 @@
+.app-footer {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: var(--text-lgx);
+    line-height: 1.167;
+}
+
+.app-footer__body {
+    padding-top: var(--gap-md);
+    padding-bottom: var(--gap-3xl);
+}
+
+.app-footer__nav {
+    margin-bottom: var(--gap-xl);
+}
+
+.app-footer__copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-footer__copyright a {
+    font-weight: 700;
+}

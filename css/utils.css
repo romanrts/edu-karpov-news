@@ -1,0 +1,34 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.link {
+    cursor: pointer;
+    color: var(--color-accent);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.sr-only {
+    overflow: hidden;
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+    pointer-events: none;
+    clip: rect(0 0 0 0);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+:root,
+body,
+.wrapper {
+    height: 100%;
+}
