@@ -1,5 +1,5 @@
 import newsDataJSON from './js/data.mjs';
-import {escapeString, getDataByID, dateFormat, getValidData} from './js/utils.mjs';
+import {escapeString, getDataByID, formatDate, getValidData} from './js/utils.mjs';
 
 const newsData = {
     cards: newsDataJSON.items.slice(0, 3),
@@ -43,7 +43,7 @@ const newsParse = {
         escapeString(item[newsDataValues.description]), newsDataFallback.description
     ),
     date: (item) => getValidData(
-        dateFormat(escapeString(item.date)), newsDataFallback.date
+        formatDate(escapeString(item.date)), newsDataFallback.date
     ),
 }
 
