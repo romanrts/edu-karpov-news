@@ -3,7 +3,7 @@ import {escapeString, getDataByID, formatDate, getValidData} from './js/utils.mj
 
 const newsData = {
     cards: newsDataJSON.items.slice(0, 3),
-    feeds: newsDataJSON.items.slice(3, 12),
+    feeds: newsDataJSON.items.slice(3, 8),
     categories: newsDataJSON.categories,
     sources: newsDataJSON.sources,
 }
