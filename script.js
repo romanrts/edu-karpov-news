@@ -11,8 +11,8 @@ const newsData = {
 const newsDataValues = {
     title: 'title',
     image: 'image',
-    source_id: 'source_id',
-    category_id: 'category_id',
+    source: 'source_id',
+    category: 'category_id',
     description: 'description',
     date: 'date',
 }
@@ -34,10 +34,10 @@ const newsParse = {
         encodeURI(item[newsDataValues.image]), newsDataFallback.image
     ),
     source: (item) => getValidData(
-        escapeString(getDataByID(item[newsDataValues.source_id], newsData.sources).name), newsDataFallback.source_id
+        escapeString(getDataByID(item[newsDataValues.source], newsData.sources).name), newsDataFallback.source_id
     ),
     category: (item) => getValidData(
-        escapeString(getDataByID(item[newsDataValues.category_id], newsData.categories).name), newsDataFallback.category_id
+        escapeString(getDataByID(item[newsDataValues.category], newsData.categories).name), newsDataFallback.category_id
     ),
     description: (item) => getValidData(
         escapeString(item[newsDataValues.description]), newsDataFallback.description
