@@ -31,6 +31,7 @@
 
 .news-date + .news-source:before {
     content: ' • ';
+    margin: 0 .5em;
 }
 
 .news-cards {
@@ -114,7 +115,7 @@
 
 .news-feed {
     border-left: 8px solid var(--color-primary);
-    padding-left: 5px;
+    padding-left: 8px;
 }
 
 .news-feed__title {
@@ -132,13 +133,4 @@
 
 .news-feed__more {
     display: inline-block;
-}
-
-.news-feed__more:hover {
-    text-decoration: none;
-    color: var(--color-accent);
-}
-
-.news-feed__more:hover:before {
-    color: var(--color-grey-30);
 }
