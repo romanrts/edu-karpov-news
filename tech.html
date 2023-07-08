@@ -25,13 +25,13 @@
                 <ul class="grid-col-8 nav__list">
 
                     <li class="nav__item">
-                        <a href="./" class="link nav__link nav__link_current">Главная</a>
+                        <a href="./index.html" class="link nav__link">Главная</a>
                     </li>
                     <li class="nav__item">
                         <a href="./fashion.html" class="link nav__link">Мода</a>
                     </li>
                     <li class="nav__item">
-                        <a href="./tech.html" class="link nav__link">Технологии</a>
+                        <a href="./tech.html" class="link nav__link nav__link_current">Технологии</a>
                     </li>
                     <li class="nav__item">
                         <a href="./politics.html" class="link nav__link">Политика</a>
@@ -100,13 +100,13 @@
                 <ul class="grid-col-8 nav__list">
 
                     <li class="nav__item">
-                        <a href="./" class="link nav__link nav__link_current">Главная</a>
+                        <a href="/" class="link nav__link">Главная</a>
                     </li>
                     <li class="nav__item">
                         <a href="./fashion.html" class="link nav__link">Мода</a>
                     </li>
                     <li class="nav__item">
-                        <a href="./tech.html" class="link nav__link">Технологии</a>
+                        <a href="./tech.html" class="link nav__link nav__link_current">Технологии</a>
                     </li>
                     <li class="nav__item">
                         <a href="./politics.html" class="link nav__link">Политика</a>
@@ -144,6 +144,28 @@
 
     </footer>
 
+
+    <template id="newsCardItem">
+        <article class="news-card">
+            <div class="news-card__image">
+                <img data-news="image" src="./img/news/image1.jpg" alt="Фото новости">
+            </div>
+            <a href="./" data-news="category" class="link news-category news-card__category">Категория</a>
+            <div class="news-card__content">
+                <div data-news="title" class="news-card__title news-line-limit">Название</div>
+                <div data-news="desc" class="news-card__desc news-line-limit">Описание</div>
+                <a data-news="source" href="#" class="link news-source news-card__more">Источник</a>
+            </div>
+        </article>
+    </template>
+
+    <template id="newsFeedItem">
+        <li class="news-feed">
+            <div data-news="title" class="news-feed__title news-line-limit">Название</div>
+            <time data-news="date" class="news-date news-feed__date">11 февраля</time>
+            <a data-news="source" href="#" class="link news-source news-feed__more">Источник</a>
+        </li>
+    </template>
 
 </div>
 </body>
