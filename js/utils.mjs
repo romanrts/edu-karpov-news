@@ -31,7 +31,7 @@ export const getDataByID = (id, array) => {
  * @param locale {string} desired language locale
  * @returns {string}
  */
-export const dateFormat = (date, locale = 'ru-RU') => {
+export const formatDate = (date, locale = 'ru-RU') => {
     return new Date(date).toLocaleDateString(locale, {day: 'numeric', month: 'long'})
 }
 
