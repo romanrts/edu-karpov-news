@@ -19,7 +19,7 @@ const newsDataValues = {
 
 const newsDataFallback = {
     title: 'Название',
-    image: 'https://placehold.co/344x344',
+    image: './img/app-logo-short.svg',
     source_id: 'Источник',
     category_id: 'Категория',
     description: 'Описание',
