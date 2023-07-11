@@ -1,4 +1,9 @@
-export default {
+export const getDataByURL = async (url) => {
+    return fetch(url)
+        .then(response => response.json())
+}
+
+export const staticData = {
     "sources": [
         {
             "id": 1,
