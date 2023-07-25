@@ -1,10 +1,3 @@
-.app-header {
-}
-
-.app-header__body {
-    padding: var(--gap-md);
-}
-
 .nav {
 }
 
@@ -41,26 +34,4 @@
 .nav__link:hover,
 .nav__link_current {
     color: var(--color-accent);
-}
-
-.app-options {
-    cursor: pointer;
-    color: inherit;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 1;
-    text-transform: uppercase;
-
-    display: none;
-}
-
-.app-options__switch {
-}
-
-.app-options__list {
-    list-style-type: none;
-    display: none;
-}
-
-.app-options__item {
 }

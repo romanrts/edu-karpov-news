@@ -1,0 +1,35 @@
+.news-feeds {
+}
+
+.news-feeds__heading {
+    font-size: var(--gap-xl);
+    margin-bottom: var(--gap-2xl);
+}
+
+.news-feeds__list {
+    list-style-type: none;
+    display: grid;
+    gap: var(--gap-xl) 0;
+}
+
+.news-feed {
+    border-left: 8px solid var(--color-primary);
+    padding-left: 8px;
+}
+
+.news-feed__title {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: var(--text-md);
+    line-height: 1.2;
+
+    margin-bottom: 14px;
+}
+
+.news-feed__date {
+    display: inline-block;
+}
+
+.news-feed__more {
+    display: inline-block;
+}
