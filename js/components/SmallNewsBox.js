@@ -1,3 +1,4 @@
+import React from "react";
 import {SmallNews} from "./SmallNews.js";
 import {formatDate} from "../utils.js";
 

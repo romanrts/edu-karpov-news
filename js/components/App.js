@@ -1,3 +1,4 @@
+import React from "react";
 import {options} from "../options.js";
 import {Navigation} from "./Navigation.js";
 import {NewsFeed} from "./NewsFeed.js";

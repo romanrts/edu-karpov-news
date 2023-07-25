@@ -1,5 +1,5 @@
+import React from "react";
 import {BigNews} from "./BigNews.js";
-
 export const BigNewsBox = ({heading, articles, indexStart, indexEnd}) => {
     return (
         <div className="news-cards">

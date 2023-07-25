@@ -1,3 +1,5 @@
+import React from "react";
+
 export const BigNews = ({title, image, category, description, source}) => {
     return (
         <article className="news-card">
