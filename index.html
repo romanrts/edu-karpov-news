@@ -7,144 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>News Feed Home</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="script.js" type="module" defer></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="script.jsx" type="text/babel" defer></script>
 </head>
 <body>
-<div class="wrapper">
 
+<div id="root" class="wrapper"></div>
 
-    <header class="app-header">
-
-        <div class="container app-header__body">
-            <nav class="nav grid-row">
-
-                <a class="grid-col-2 nav__logo">
-                    <img src="./img/app-logo.svg" alt="News Feed Logo">
-                </a>
-
-                <ul class="grid-col-8 nav__list">
-
-                    <li class="nav__item">
-                        <a href="./" class="link nav__link nav__link_current">Главная</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./fashion.html" class="link nav__link">Мода</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./tech.html" class="link nav__link">Технологии</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./politics.html" class="link nav__link">Политика</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./sport.html" class="link nav__link">Спорт</a>
-                    </li>
-
-                </ul>
-
-                <div class="grid-col-1 app-options">
-                    <button class="app-options__switch">Язык</button>
-                    <ul class="app-options__list">
-                        <li class="app-options__item">Ru</li>
-                        <li class="app-options__item">En</li>
-                    </ul>
-                </div>
-
-                <div class="grid-col-1 app-options">
-                    <button class="app-options__switch">Тема</button>
-                    <ul class="app-options__list">
-                        <li class="app-options__item">Auto</li>
-                        <li class="app-options__item">Light</li>
-                        <li class="app-options__item">Dark</li>
-                    </ul>
-                </div>
-            </nav>
-
-        </div>
-
-    </header>
-
-
-    <main class="app-main">
-        <h1 class="sr-only">Главная</h1>
-
-        <div class="grid-row container">
-
-            <div class="grid-col-9">
-                <div class="news-cards">
-                    <h2 class="news-cards__heading">Последние новости</h2>
-                    <div class="news-cards__box"></div>
-                </div>
-            </div>
-
-            <div class="grid-col-3">
-                <div class="news-feeds">
-                    <h2 class="news-feeds__heading">Новостная лента</h2>
-                    <ul class="news-feeds__list"></ul>
-                </div>
-            </div>
-        </div>
-    </main>
-
-
-    <footer class="app-footer">
-
-        <div class="container app-footer__body">
-
-            <nav class="nav grid-row app-footer__nav">
-
-                <a class="grid-col-2 nav__logo">
-                    <img src="./img/app-logo.svg" alt="News Feed Logo">
-                </a>
-
-                <ul class="grid-col-8 nav__list">
-
-                    <li class="nav__item">
-                        <a href="./" class="link nav__link nav__link_current">Главная</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./fashion.html" class="link nav__link">Мода</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./tech.html" class="link nav__link">Технологии</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./politics.html" class="link nav__link">Политика</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./sport.html" class="link nav__link">Спорт</a>
-                    </li>
-
-                </ul>
-
-                <div class="grid-col-1 app-options">
-                    <button class="app-options__switch">Язык</button>
-                    <ul class="app-options__list">
-                        <li class="app-options__item">Ru</li>
-                        <li class="app-options__item">En</li>
-                    </ul>
-                </div>
-
-                <div class="grid-col-1 app-options">
-                    <button class="app-options__switch">Тема</button>
-                    <ul class="app-options__list">
-                        <li class="app-options__item">Auto</li>
-                        <li class="app-options__item">Light</li>
-                        <li class="app-options__item">Dark</li>
-                    </ul>
-                </div>
-            </nav>
-
-            <div class="app-footer__copyright">
-                <span>Разработано на курсе в <a href="#" class="link" target="_blank">Karpov.Courses</a></span>
-                <span>@ 2023</span>
-            </div>
-
-        </div>
-
-    </footer>
-
-
-</div>
 </body>
 </html>
