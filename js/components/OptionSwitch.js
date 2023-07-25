@@ -1,3 +1,5 @@
+import React from "react";
+
 export const OptionSwitch = ({text, options = []}) => {
     return (
         <React.Fragment>

@@ -1,3 +1,4 @@
+import React from "react";
 import {options} from "../options.js";
 import {OptionSwitch} from "./OptionSwitch.js";
 

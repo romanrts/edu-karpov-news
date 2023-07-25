@@ -1,3 +1,4 @@
+import React from "react";
 import {BigNewsBox} from "./BigNewsBox.js";
 import {SmallNewsBox} from "./SmallNewsBox.js";
 

@@ -1,3 +1,5 @@
+import React from "react";
+
 export const SmallNews = ({title, date, source}) => {
     return (
         <li className="news-feed">
