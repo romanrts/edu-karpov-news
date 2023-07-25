@@ -1,5 +1,8 @@
 import React from "react";
-import {BigNews} from "./BigNews.js";
+import {BigNews} from "../BigNews/BigNews.js";
+import './BigNewsBox.css'
+import fallbackImage from '../../img/app-logo-short.svg';
+
 export const BigNewsBox = ({heading, articles, indexStart, indexEnd}) => {
     return (
         <div className="news-cards">
@@ -9,7 +12,7 @@ export const BigNewsBox = ({heading, articles, indexStart, indexEnd}) => {
                     return (
                         <BigNews key={item.id}
                                  title={item.title}
-                                 image={item.image ? item.image : './img/app-logo-short.svg'}
+                                 image={item.image ? item.image : fallbackImage}
                                  category={articles.categories.find(({id}) => item.category_id === id).name}
                                  description={item.description}
                                  source={articles.sources.find(({id}) => item.source_id === id).name}

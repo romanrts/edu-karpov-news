@@ -1,0 +1,12 @@
+.news-cards {
+}
+
+.news-cards__heading {
+    font-size: var(--gap-3xl);
+    margin-bottom: var(--gap-2xl);
+}
+
+.news-cards__box {
+    display: grid;
+    gap: var(--gap-2xl);
+}

@@ -1,5 +1,5 @@
 import React from "react";
-
+import './OptionSwitch.css';
 export const OptionSwitch = ({text, options = []}) => {
     return (
         <React.Fragment>
