@@ -1,7 +1,7 @@
 import React from "react";
-import {SmallNews} from "./SmallNews.js";
-import {formatDate} from "../utils.js";
-
+import './SmallNewsBox.css';
+import {SmallNews} from "../SmallNews/SmallNews.js";
+import {formatDate} from "../../js/utils.js";
 export const SmallNewsBox = ({heading, articles, indexStart, indexEnd}) => {
     return (
         <div className="news-feeds">

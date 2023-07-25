@@ -1,6 +1,8 @@
 import React from "react";
-import {options} from "../options.js";
-import {OptionSwitch} from "./OptionSwitch.js";
+import {options} from "../../js/options.js";
+import './Navigation.css';
+import {OptionSwitch} from "../OptionSwitch/OptionSwitch.js";
+import logo from '../../img/app-logo.svg';
 
 const categoryNames = options.category;
 
@@ -12,7 +14,7 @@ export const Navigation = ({onNavClick, currentCategory, className = ''}) => {
                data-href={"./index"}
                href={"./index"}
             >
-                <img src="../img/app-logo.svg" alt="News Feed Logo"/>
+                <img src={logo} alt="News Feed Logo"/>
             </a>
 
             <ul className="grid-col-8 nav__list">

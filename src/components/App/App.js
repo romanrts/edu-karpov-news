@@ -1,7 +1,8 @@
 import React from "react";
-import {options} from "../options.js";
-import {Navigation} from "./Navigation.js";
-import {NewsFeed} from "./NewsFeed.js";
+import {options} from "../../js/options.js";
+import './App.css';
+import {Navigation} from "../Navigation/Navigation.js";
+import {NewsFeed} from "../NewsFeed/NewsFeed.js";
 
 export const App = () => {
     const [category, setCategory] = React.useState('index');

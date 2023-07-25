@@ -1,4 +1,5 @@
 import React from "react";
+import './SmallNews.css';
 
 export const SmallNews = ({title, date, source}) => {
     return (

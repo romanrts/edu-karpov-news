@@ -1,0 +1,13 @@
+.news-feeds {
+}
+
+.news-feeds__heading {
+    font-size: var(--gap-xl);
+    margin-bottom: var(--gap-2xl);
+}
+
+.news-feeds__list {
+    list-style-type: none;
+    display: grid;
+    gap: var(--gap-xl) 0;
+}
