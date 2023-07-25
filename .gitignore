@@ -1,2 +1,4 @@
 /SOURCE/
 /.idea/
+node_modules/
+/dist/

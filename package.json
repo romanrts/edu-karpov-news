@@ -1,0 +1,17 @@
+{
+  "name": "edu-karpov-news",
+  "version": "1.0.0",
+  "description": "Учебный проект для курса «Frontend топовыхх компаний»",
+  "main": "js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-react": "^7.22.5"
+  }
+}

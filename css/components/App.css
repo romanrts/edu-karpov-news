@@ -1,3 +1,10 @@
+.app-header {
+}
+
+.app-header__body {
+    padding: var(--gap-md);
+}
+
 .app-footer {
     background-color: var(--color-primary);
     color: var(--color-white);
