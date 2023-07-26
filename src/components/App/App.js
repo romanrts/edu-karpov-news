@@ -1,16 +1,16 @@
-import React from "react";
-import {options} from "../../js/options.js";
-import './App.css';
-import {Navigation} from "../Navigation/Navigation.js";
-import {NewsFeed} from "../NewsFeed/NewsFeed.js";
+import React from 'react'
+import { options } from '../../js/options.js'
+import './App.css'
+import { Navigation } from '../Navigation/Navigation.js'
+import { NewsFeed } from '../NewsFeed/NewsFeed.js'
 
 export const App = () => {
-    const [category, setCategory] = React.useState('index');
-    const [articles, setArticles] = React.useState({items: [], category: [], sources: []});
+    const [category, setCategory] = React.useState('index')
+    const [articles, setArticles] = React.useState({items: [], category: [], sources: []})
 
     const onNavClick = ((evt) => {
-        evt.preventDefault();
-        setCategory(evt.currentTarget.dataset.href);
+        evt.preventDefault()
+        setCategory(evt.currentTarget.dataset.href)
     })
 
     React.useEffect(() => {

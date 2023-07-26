@@ -22,7 +22,7 @@ export const options = {
         },
         karpov: {
             id: 6,
-            text: 'Karpov'
+            text: 'Karpov',
         },
-    }
+    },
 }

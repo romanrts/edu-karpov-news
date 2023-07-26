@@ -1,7 +1,7 @@
-import React from "react";
-import {BigNews} from "../BigNews/BigNews.js";
+import React from 'react'
+import { BigNews } from '../BigNews/BigNews.js'
 import './BigNewsBox.css'
-import fallbackImage from '../../img/app-logo-short.svg';
+import fallbackImage from '../../img/app-logo-short.svg'
 
 export const BigNewsBox = ({heading, articles, indexStart, indexEnd}) => {
     return (
