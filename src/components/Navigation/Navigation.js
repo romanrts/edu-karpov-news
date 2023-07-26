@@ -1,18 +1,18 @@
-import React from "react";
-import {options} from "../../js/options.js";
-import './Navigation.css';
-import {OptionSwitch} from "../OptionSwitch/OptionSwitch.js";
-import logo from '../../img/app-logo.svg';
+import React from 'react'
+import { options } from '../../js/options.js'
+import './Navigation.css'
+import { OptionSwitch } from '../OptionSwitch/OptionSwitch.js'
+import logo from '../../img/app-logo.svg'
 
-const categoryNames = options.category;
+const categoryNames = options.category
 
 export const Navigation = ({onNavClick, currentCategory, className = ''}) => {
     return (
         <nav className={`nav grid-row ${className}`}>
 
             <a onClick={onNavClick} className="grid-col-2 nav__logo"
-               data-href={"./index"}
-               href={"./index"}
+               data-href={'./index'}
+               href={'./index'}
             >
                 <img src={logo} alt="News Feed Logo"/>
             </a>

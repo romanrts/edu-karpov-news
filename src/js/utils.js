@@ -11,7 +11,7 @@ export const escapeString = (string) => {
     }
 
     return string.replace(/[<>&]/g, (tag) => {
-        return symbols[tag] || tag;
+        return symbols[tag] || tag
     })
 }
 
@@ -22,8 +22,8 @@ export const escapeString = (string) => {
  * @returns {Object}
  */
 export const getDataByID = (id, array) => {
-    return array.find(item => item.id === id);
-};
+    return array.find(item => item.id === id)
+}
 
 /**
  * Convert date string to format: March 11.
@@ -42,5 +42,5 @@ export const formatDate = (date, locale = 'ru-RU') => {
  * @returns {*}
  */
 export const getValidData = (data, fallback) => {
-    return data ? data : fallback;
+    return data ? data : fallback
 }

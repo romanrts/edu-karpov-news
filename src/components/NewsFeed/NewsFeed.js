@@ -1,7 +1,7 @@
-import React from "react";
-import './NewsFeed.css';
-import {BigNewsBox} from "../BigNewsBox/BigNewsBox.js";
-import {SmallNewsBox} from "../SmallNewsBox/SmallNewsBox.js";
+import React from 'react'
+import './NewsFeed.css'
+import { BigNewsBox } from '../BigNewsBox/BigNewsBox.js'
+import { SmallNewsBox } from '../SmallNewsBox/SmallNewsBox.js'
 
 export const NewsFeed = ({articles}) => {
     return (
