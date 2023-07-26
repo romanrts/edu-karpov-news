@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    mode: 'development',
+    mode: process.env.NODE_ENV || 'production',
     entry: './src/script.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
